@@ -1,6 +1,3 @@
-import java.util.ArrayList;
-import java.util.List;
-
 public class Main {
 
     public static void main(String[] args) {
@@ -9,8 +6,4 @@ public class Main {
 }
 
 class Solution {
-    public List<Integer> findAnagrams(String s, String p) {
-        ArrayList<Integer> ans = new ArrayList<>();
-        return ans;
-    }
 }
