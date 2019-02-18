@@ -14,10 +14,11 @@ class q3 {
 
         StringBuilder ans = new StringBuilder(str);
 
-        for (int i = 0; i < ans.length(); i++) {
+        for (int i = ans.length() - 1; i > -1; i--) {
             if (ans.charAt(i) == ' ') {
                 ans.delete(i, i + 1);
                 ans.insert(i, "%20");
+                i -= 1;
             }
         }
         return ans.toString();
